@@ -1,0 +1,19 @@
+#pragma once
+
+#define VIAL_KEYBOARD_UID {0x3D, 0x70, 0x8C, 0x39, 0x86, 0xA3, 0xD5, 0x2E}
+
+/* Encoder */
+#define NUMBER_OF_ENCODERS 1
+#define ENCODERS_PAD_A { D3 }
+#define ENCODERS_PAD_B { D2 }
+#define DIP_SWITCH_PINS { D7  }
+#define ENCODER_DIRECTION_FLIP
+#define ENCODER_RESOLUTION 2
+
+/* LED */
+#define RGB_DI_PIN F5
+#define RGBLED_NUM 5
+#define RGBLIGHT_LAYERS
+#define USB_MAX_POWER_CONSUMPTION 500
+#define RGBLIGHT_LIMIT_VAL 200
+
